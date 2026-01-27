@@ -8,16 +8,15 @@ public class bai2 {
     public static int searchBooks(String[] arr, String search) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i].equals(search)) {
-                return i; // tìm thấy → trả về vị trí
+                return i;
             }
         }
-        return -1; // không tìm thấy
+        return -1;
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Khởi tạo sẵn danh sách sách
         String[] books = {
                 "Doraemon",
                 "One Piece",
@@ -38,3 +37,4 @@ public class bai2 {
         }
     }
 }
+
