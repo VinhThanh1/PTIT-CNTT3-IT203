@@ -5,8 +5,8 @@ public class bai2 {
         Animal a1 = new Dog();
         Animal a2 = new Cat();
 
-        a1.sound(); // Dog
-        a2.sound(); // Cat
+        a1.sound();
+        a2.sound();
     }
 }
 
@@ -29,4 +29,5 @@ class Cat extends Animal {
         System.out.println("Meo meo!");
     }
 }
+
 
